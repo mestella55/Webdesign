@@ -1,0 +1,390 @@
+
+ html {
+    background-color: black;
+ }
+  h3, h2 {
+text-align: center;
+color: white;
+font-family: 'Montserrat';
+}
+
+h2  {
+ font-size: 30px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Alapértelmezett stílusok */
+.menu {
+ 
+  color: black;
+  font-size: 18px; /* Nagy betűméret alapértelmezett */
+  font-weight: bold;
+  padding: 6px; 
+  text-align: right; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  white-space: nowrap;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px; /* Hivatkozások alapértelmezett betűmérete */
+  font-weight: bold; 
+  white-space: nowrap;
+}
+
+.menu a:hover {
+  letter-spacing: 2px; /* Betűköz növelése */
+  word-spacing: 6px; /* Szóköz növelése */
+  text-decoration: underline; /* Aláhúzás megjelenítése */
+  font-size: larger;
+}
+
+/* Média lekérdezés mobil eszközökre */
+@media (max-width: 580px) {
+  h2 {
+      font-size: 1em; /* Csökkentett betűméret h2 elem mobilon */
+  }
+  
+  #logo {
+    position: absolute;
+    top: 38px;  /* Mobilon 38px távolságra a tetejétől */
+    left: 10px;  /* A bal széltől */
+    width:auto;  /* A logó szélessége 15% mobilon */
+    height: auto;  /* Arányos magasság */
+  }
+
+  /* Menü betűméretének csökkentése mobilra */
+  .menu {
+    font-size:smaller;  /* Csökkentett betűméret telefonos nézethez */
+  }
+
+  .menu a {
+    font-size: 14px;  /* Linkek betűméretének csökkentése mobilon */
+  }
+}
+
+
+
+h1 {
+  text-align: center;
+  font-family:   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+p ul li {
+  text-align: justify;
+}
+
+.idezet  {
+    color: black;
+    font-family: 'Playwrite España';
+    font-size: 30px;
+    margin-left: -50px;
+position: relative;
+
+   
+
+    
+
+}
+
+  #tartalomugras8 {
+    color: black;
+   }
+    #logo {
+      position: absolute;  /* A logó fix pozicionálása a fejléc bal felső sarkában */
+      top: 40px;            /* A képernyő tetejétől 10px-re */
+      left: 40%;  
+            
+      width: 18%;           /* A logó szélessége a képernyő szélességének 10%-a */
+      height: auto;         /* Az arányos magasság */
+      
+  }
+   
+h3 {
+    font-size: 2em;
+}
+html, body {
+    max-width: 100%; 
+    margin: 0; 
+    overflow-x: hidden;
+    color: white; 
+  }
+  
+.image-container {
+    position: relative;
+    max-width: 100%; 
+  aspect-ratio: 1200/ 630;
+  height: auto;
+  background-size: contain;  
+  background-image: url(../media/148.jpg);
+  background-repeat: no-repeat;
+
+  }
+  .ossze-foglal{
+    position: relative;
+    background-image: url(../media/foglalj.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1090/436;
+    background-size: contain; 
+  }
+  
+  .image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    padding: 0;
+  }
+  
+  
+
+  
+
+  .szovegakepen1 {
+   
+    position: absolute; /* Közvetlenül a kép konténerén belül pozicionálva */
+    top: 10%; /* Függőleges középre igazítás */
+    left: 50%; /* Vízszintes középre igazítás */
+    transform: translate(-50%, -50%); /* Középpont pontos elhelyezése */
+    color: white;
+    text-align: center;
+    font-size: clamp(1rem, 3vw, 2.5rem); /* Dinamikus betűméret */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Kontrasztos szöveg */
+    padding: 0 10px; /* Kisebb képernyőkön térköz hozzáadása */
+    max-width: 90%; /* A szöveg szélességének korlátozása */
+  }
+  
+  .szovegakepen2 {
+ 
+
+    position: absolute; /* Közvetlenül a kép konténerén belül pozicionálva */
+    bottom: -10%; /* Függőleges középre igazítás */
+    left: 50%; /* Vízszintes középre igazítás */
+    transform: translate(-50%, -50%); /* Középpont pontos elhelyezése */
+    color: white;
+    text-align: center;
+    font-size: clamp(1rem, 3vw, 2.5rem); /* Dinamikus betűméret */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Kontrasztos szöveg */
+    padding: 0 10px; /* Kisebb képernyőkön térköz hozzáadása */
+    max-width: 90%; /* A szöveg szélességének korlátozása */
+
+
+ 
+  }
+  
+  
+
+
+
+ a {
+    color: white;
+position: relative;
+
+ }
+ 
+
+
+ 
+
+
+
+  
+      
+  b{
+    color: white ;
+    text-decoration: underline;
+  }
+  
+ 
+  
+  
+  
+  
+  .image-wrapper {
+    width: 100%; 
+    overflow: hidden; 
+  }
+  
+  .image2 {
+    width: 50%; 
+    float: left; 
+    box-sizing: border-box; 
+    padding: 10px; 
+  }
+  
+  
+  
+  
+.cim {
+    color: black;
+    text-align: center;
+    
+  padding: 10px; 
+  text-align: center; 
+}
+.fent {
+    position: relative; /* Abszolút pozicionálás */
+    
+    padding: 10px; /* Térköz a szöveg körül */
+    font-size: 16px; 
+    color: black;
+}
+#bevezeto {
+    position: relative; /* Abszolút pozicionálás */
+    
+    padding: 10px; /* Térköz a szöveg körül */
+    font-size: 16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .kerdoiv {
+   position: relative;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+
+   }
+  .foglalas-bg {
+    background-image: url("../media/foglalas.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; /* Az elem magasságának beállítása teljes magasságra */
+    width: 100%; /* Az elem szélességének beállítása teljes szélességre */
+    color: black; /* Szöveg színe fehér */
+    text-align: left; /* Szöveg középre igazítása */
+  }
+   
+   .vissza {
+    position: relative; /* Abszolút pozicionálás */
+  
+  padding: 10px; /* Térköz a szöveg körül */
+  font-size: 16px; 
+  color: black;
+   }
+
+   
+      .text-container {
+        display: flex; /* Flexbox elrendezés */
+        justify-content: space-evenly; /* Elemek elosztása egyenletesen */
+      }
+      
+      
+
+      .nyitvatartas {
+        text-align: center; 
+  
+
+      }
+      table {
+        width: 100%; /* Teljes szélességű táblázat */
+        border-collapse: collapse; /* Keretek összeolvadása */
+      }
+      th, td {
+        padding: 8px; /* Cella belső térköze */
+        text-align: center; /* Szöveg balra igazítása */
+        border-bottom: 1px solid #fff; /* Alsó fehér keret minden cellánál */
+      }
+      #tartalom5 {
+        text-align: center; 
+       
+        position: relative;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      
+
+
+.kapcsolat {
+   
+        text-align: center; /* Szöveg középre igazítása */
+  margin: 0 auto; /* Margók automatikus elosztása a vízszintes középre igazításhoz */
+  padding: 20px;  
+   }
+.info {
+text-align: center;
+}
+.info1 {
+  text-align: center;
+  }
+     .bemutat0 { 
+      text-align: center; 
+      font-size: 16px; /* Betűméret */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    .bemutat1 { 
+        padding: 10px; /* Belső térköz */
+        font-size: 16px; /* Betűméret */
+        border: 1px solid #ccc; /* Keret */
+        border-radius: 4px; /* Keret lekerekítése */
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+
+    .szolg {
+        padding: 10px; /* Belső térköz */
+        font-size: 16px; /* Betűméret */
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .left-text {
+        width: 50%; /* Szélesség beállítása */
+        position: relative;
+        
+        padding: 10px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+     
+     
+        .right-text { 
+            width: 50%; /* Szélesség beállítása */
+            position: relative;
+            
+            padding: 10px;
+            font-size: 1em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+      
+      
+      .balkepcim {
+        position: relative;
+        padding: 10px;
+       font-size: 1.5em;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      .balkepcim2 {
+        position: relative;
+        padding: 10px;
+       font-size: 1.5em;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .jobbkepcim {
+        position: relative;
+        padding: 10px;
+       font-size: 1.5em;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+    
+      
+     
+      
+  
+   
+
+  
+  
+  
